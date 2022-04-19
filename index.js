@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-const PORT = process.env.PORT || 8085
+const PORT = process.env.PORT || 8080
 
 const routerProductos = require ('./routes/productos')
 
